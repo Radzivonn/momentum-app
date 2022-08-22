@@ -1,0 +1,425 @@
+@media (max-width: 391px) {
+  body {	
+		width: 100vw;
+    font-size: 14px;
+  }
+
+
+  .main, .footer{
+    padding: 10px;
+  }
+
+	.player {
+		min-width: 100px;
+	}
+
+	.player-controls {
+		margin: 0 auto 0 60px;
+	}
+
+	.slider-wrapper {
+		position: absolute;
+		top: 25px;
+		left: -30px;
+		margin: 0 0 0 0;
+	}
+
+  .timeline {	min-width: 200px } 
+
+	.audio-name {
+		margin: 0px 20px 5px 55px;
+		white-space: nowrap;
+	}
+
+	.slider-wrapper {
+		left: -40px
+	}
+
+	.volume-logo {
+		left: -10px;
+	}
+
+
+	/* #Weather-button {
+		width: 35px;
+		height: 35px;
+		display: block;
+	} */
+
+	.weather {
+		width: 80px; 
+	}
+
+
+  .time {
+    min-height: 65px;
+    font-size: 65px;    
+  }
+
+  .date {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .greeting-container {
+    min-height: 30px;
+    font-size: 20px;
+  }
+
+  .greeting { padding: 5px }
+
+  .name {
+    font-size: 32px;
+    padding: 5px;
+  }
+
+  .quote, .author { font-size: 11px }
+  .quote {
+    min-height: 20px;
+    margin-bottom: 10px;
+  }
+
+	.Links {
+		font-size: 26px;
+		margin-right: 0px;
+	}
+
+	.Links__Wrapper {
+		padding-left: 25px;
+	}
+
+  .social-media {
+    gap: 10px;
+    width: 150px;
+  }
+}
+
+
+@media (min-width: 391px) and (max-width: 479px) {
+  body {	
+		width: 100vw;
+    font-size: 14px;
+  }
+  
+  .main, .footer{
+    padding: 10px;
+  }
+
+	.player {
+		min-width: 100px;
+	}
+
+	.player-controls {
+		margin: 0 auto 0 60px;
+	}
+
+	.slider-wrapper {
+		position: absolute;
+		top: 25px;
+		left: -30px;
+		margin: 0 0 0 0;
+	}
+
+  .timeline {	min-width: 200px } 
+
+	.audio-name {
+		margin: 0px 20px 5px 55px;
+		white-space: nowrap;
+	}
+
+	.slider-wrapper {
+		left: -40px
+	}
+
+	.volume-logo {
+		left: -10px;
+	}
+
+
+	/* #Weather-button {display: block} */
+
+	.weather {
+		width: 110px; 
+	}
+	
+
+  .time {
+    min-height: 65px;
+    font-size: 65px;    
+  }
+
+  .date {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .greeting-container {
+    min-height: 30px;
+    font-size: 20px;
+  }
+
+  .greeting { padding: 5px }
+
+  .name {
+    font-size: 32px;
+    padding: 5px;
+  }
+
+  .quote, .author { font-size: 11px }
+  .quote {
+    min-height: 20px;
+    margin-bottom: 10px;
+  }
+
+	.Links {
+		font-size: 30px;
+		margin-right: 15px;
+	}
+
+	.Links__Wrapper {
+		padding-left: 25px;
+	}
+
+  .social-media {
+    gap: 10px;
+    width: 150px;
+  }
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	body { font-size: 15px }
+	
+	.player {
+		min-width: 300px;
+	}
+
+	.player-controls {
+		margin: 0 auto 0 100px;
+	}
+
+	.audio-name {
+		margin: 0px 20px 5px auto;
+	}
+
+	.timeline {max-width: 200px}
+
+
+	.weather {
+    max-width: 130px;
+    min-height: 150px;  
+    text-align: left;
+  }
+
+  .time {
+    min-height: 80px;
+    font-size: 76px;    
+  }
+
+  .date {
+    font-size: 21px;
+    margin-bottom: 5px;
+  }
+
+  .greeting-container {
+    min-height: 40px;
+    font-size: 30px;
+  }
+
+  .greeting { padding: 5px }
+
+  .name {
+    font-size: 32px;
+    padding: 5px;
+  }
+
+	.quotes__block {
+		max-width: 500px;
+	}
+
+  .quote, .author { font-size: 13px }
+
+  .quote {
+    min-height: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media (max-width: 1025px) and (min-width: 768px){
+	.weather {
+    min-width: 180px;
+    min-height: 150px;  
+    text-align: left;
+  }
+
+  .time {
+    min-height: 100px;
+    font-size: 90px; 
+  }
+
+  .date {
+    min-height: 25px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .greeting-container {
+    min-height: 40px;
+    font-size: 36px;
+  }
+
+  .name {
+    font-size: 36px;
+    padding: 5px;
+  }
+	.quotes__block {
+		max-width: 600px;
+	}
+
+  .quote, .author { font-size: 14px }
+
+/*---------------------------------------------------------------------*/
+	.popup__content {
+		max-width: 400px;
+		max-height: 550px;
+	}
+
+	.change-lang, .change-BG-images-source {
+		max-width: 150px;
+	}
+
+	.tagInput {
+		min-width: 250px;	
+		max-height: 45px;
+	}
+
+	.saveChangesButton {
+		max-height: 45px;
+	}
+
+	.popup__content,
+	.saveChangesButton,
+	.tagInput, .change-lang,
+	.change-BG-images-source {
+		font-size: 19px;
+	}
+
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+	.weather {
+    min-width: 200px;
+    min-height: 150px;  
+    text-align: left;
+  }
+
+	.quotes__block {
+		max-width: 1000px;
+	}
+
+/*----------------------------------------------------------*/
+
+	.popup__content {
+		max-width: 500px;
+		min-height: 600px;
+	}
+
+	.change-lang, .change-BG-images-source {
+		min-width: 150px;
+	}
+
+	.tagInput {
+		min-width: 300px;
+		min-height: 30px;
+		max-height: 50px;
+	}
+
+	.saveChangesButton {
+		min-width: 150px;
+		min-height: 35px;
+		max-height: 50px;
+	}
+
+	body,
+	.popup__content,
+	.saveChangesButton,
+	.tagInput, .change-lang,
+	.change-BG-images-source {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+	.quotes__block {
+		max-width: 1000px;
+	}
+
+	body,
+	.popup__content,
+	.saveChangesButton,
+	.tagInput, .change-lang,
+	.change-BG-images-source {
+		font-size: 21px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.volume-logo {
+		width: 35px;
+		height: 35px;
+		top: 110px;
+		left: 0px;
+	}
+
+	.player-controls {
+		margin: 10px auto 0 135px;
+		width: 130px;
+	}
+
+	.timeline-wrapper {
+		width: 80%;
+	}
+
+	.current-time,
+	.duration {
+		font-size: 16px;
+	}
+
+	.player-icon,
+	.slider-icon,
+	.change-quote {
+		width: 40px;
+		height: 40px;
+	}
+
+	.audio-name {
+		margin-bottom: 20px;
+	}
+
+	.slider-wrapper {
+		top: 30px;
+		left: -40px;
+	}
+	input[type='range'] {
+		width: 100px;
+	}
+
+	.settings-icon {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+
+@media (min-width: 1500px) {
+	body,
+	.popup__content,
+	.saveChangesButton,
+	.tagInput, .change-lang,
+	.change-BG-images-source {
+		font-size: 25px;
+	}
+
+}	
